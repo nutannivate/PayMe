@@ -5,6 +5,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
+    buildToolsVersion "26.0.2"
     compileSdkVersion 26
     defaultConfig {
         applicationId "me.pay.nutan.paybyme"
